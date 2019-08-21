@@ -1,0 +1,26 @@
+{
+  "name": "google-home-nest-apis",
+  "version": "1.0.0",
+  "description": "Goal - to test out google's smart-home APIs. Challenge - must use the 'assistanct' framework, can't just communicate with Nest directly Solution - use samples from google's documentation to cobble up something simple to work with their simulator",
+  "main": "hello-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipavlovski/google-home-nest-apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipavlovski/google-home-nest-apis/issues"
+  },
+  "homepage": "https://github.com/ipavlovski/google-home-nest-apis#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "request": "^2.88.0"
+  }
+}
